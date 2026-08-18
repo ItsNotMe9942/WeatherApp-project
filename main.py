@@ -65,8 +65,8 @@ def get_weather_forecast(chosen_city):
     print(f"Humidity: {humidity}")
   except KeyError:
     print(f"Key Error! Weather data for {chosen_city} is not available")
-  except Exception as :
-    print("An unexpected error occurred: {e}")
+  except Exception as e:
+    print(f"An unexpected error occurred: {e}")
 
 
 # 6. Thank You Message: Thank the user for using the weather forecast application.
